@@ -50,7 +50,7 @@ export default function Nav() {
                     textDecoration: "none",
                     bg: useColorModeValue("gray.200", "gray.700"),
                   }}
-                  href={`/${link}`}
+                  href={`/${link}`} 
                 >
                   {link}
                 </Link>
