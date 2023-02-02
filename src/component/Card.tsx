@@ -10,7 +10,7 @@ export default function Card(props:CardProps) {
     <Box
     >
       <Box
-        w={{base:"300px",md:"xs",xl:"xs"}}
+        w={{base:"250px",md:"xs",xl:"xs"}}
         bg="white"
         _dark={{ bg: 'gray.800' }}
         shadow="lg"

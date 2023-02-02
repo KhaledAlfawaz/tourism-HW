@@ -56,7 +56,7 @@ export default function Carousels(){
       justifyContent="center"
     >
       <Flex w="full" overflow="hidden">
-        <Flex pos="relative" h="850px" w="full" {...carouselStyle}>
+        <Flex pos="relative" h={{base:"450px",xs:350 , md:"650px",lg:"750px"}} w="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} flex="none" boxSize="full" shadow="md">
               <Text

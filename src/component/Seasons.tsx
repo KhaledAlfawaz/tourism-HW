@@ -1,5 +1,5 @@
 import { ReactElement, ReactNode } from 'react';
-import { Box, SimpleGrid, Icon, Text, Stack, Flex } from '@chakra-ui/react';
+import { Box, SimpleGrid, Icon, Text, Stack, Flex, Heading } from '@chakra-ui/react';
 import { MdSportsSoccer, TbMusic, IoIosPeople } from 'react-icons/all';
 
 interface FeatureProps {

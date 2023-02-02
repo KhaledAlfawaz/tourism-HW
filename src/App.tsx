@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Flex, Button, Text, Divider } from '@chakra-ui/react';
+import { Box, Flex, Button, Text, Divider, Heading, Center } from '@chakra-ui/react';
 import Nav from './component/Nav';
 import Footer from './component/Footer';
 import Riyadh from './component/Riyadh'
@@ -22,15 +22,11 @@ function App() {
     <Box>
       <Nav />
 
-      {/* I dont know how to do the routing in react.
-          if you want to check the other pages comment the code below
-          and uncomment the cites one by one.
-      */}
-      {/*
-      <Alula/>
+      
+      {/* <Alula/>
       <Riyadh/>
       <Jeddah/> 
-      */}
+       */}
 
       <Carousels />
       <Flex
@@ -60,6 +56,11 @@ function App() {
       </Flex>
       <Divider />
       <Box w={'100%'} h={'20%'} p={100} pt={50} bgColor={"gray.100"}  >
+        <Center>
+      <Heading size={"lg"}>Saudi Seasions</Heading>
+
+        </Center>
+
       <Seasons/>
       </Box>
       <Flex
