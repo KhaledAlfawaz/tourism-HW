@@ -80,7 +80,7 @@ export default function Nav() {
                 >
                   {link}
                 </Link>
-              ))}
+              ))}  
             </Stack>
           </Box>
         ) : null}

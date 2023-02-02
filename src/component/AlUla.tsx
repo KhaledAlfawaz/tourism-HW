@@ -5,7 +5,7 @@ import Activities from './Activities';
 function Alula() {
   return (
     <Box mx={{ base: 50, md: 150, lg: 250 }} my={{ base: 10, md: 50, lg: 100 }}>
-      <Heading pb={5}>Alula</Heading>
+      <Heading pb={5}>AlUla</Heading>
       <Text fontSize={'xl'}>
         AlUla is a place of extraordinary human and natural heritage. We invite
         you to come journey through a living museum of preserved tombs,
