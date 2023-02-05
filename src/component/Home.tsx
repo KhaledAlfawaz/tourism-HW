@@ -24,7 +24,7 @@ import AlUlaLogo from "../assets/alula_logo.jpg";
 import Seasons from "./Seasons";
 import Alsoudah from "../assets/Alsoudah.png";
 import AlsoudahLogo from "../assets/AlsoudahLogo.png";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -50,10 +50,10 @@ function Home() {
           w="full"
           justifyContent="center"
         >
-          <Card img={RiyadhCity} name="Riyadh" />
-          <Card img={JeddahCity} name="Jeddah" />
+          <Link to={'/Riyadh'}><Card img={RiyadhCity} name="Riyadh" /></Link>
+          <Link to={'/Jeddah'}><Card img={JeddahCity} name="Jeddah" /></Link>
           <Card img={Alsoudah} name="AlSoudah" />
-          <Card img={AlUlaCity} name="AlUla" />
+          <Link to={'/AlUla'}><Card img={AlUlaCity} name="AlUla" /></Link>
         </Flex>
         <Divider />
         <Box w={"100%"} h={"20%"} p={100} pt={50} bgColor={"gray.100"}>
